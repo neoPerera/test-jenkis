@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/neoPerera/test-jenkis.git'
+                git 'https://github.com/neoPerera/my-portfolio.git'
             }
         }
         stage('Build') {
